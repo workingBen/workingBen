@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" width="900" height="210" role="img" aria-labelledby="t">
+<title id="t">Ben Pellow. Founding engineer for AI products. Agents build, a person decides.</title>
+<rect width="900" height="210" rx="16" fill="#fffdf9"/>
+<rect x="0.5" y="0.5" width="899" height="209" rx="16" fill="none" stroke="#ddd5c6"/>
+<rect x="44" y="43" width="9" height="9" rx="2" fill="#c2410c"/><text x="64" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="2" fill="#6b6458">FOUNDING ENGINEER · AI PRODUCTS</text><text x="44" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#1d1b17">Ben Pellow</text><text x="44" y="166" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#6b6458">Agents build. A person <tspan font-style="italic" fill="#c2410c">decides</tspan>.</text><line x1="520" y1="106.0" x2="830" y2="106.0" stroke="#1d1b17" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="530" cy="106.0" r="4.5" fill="#1d1b17"/>
+<circle cx="552" cy="106.0" r="4.5" fill="#1d1b17"/>
+<path d="M564 106.0 C 605 106.0, 564 58, 605 58 L 768 58 C 809 58, 768 106.0, 809 106.0" fill="none" stroke="#cfc6b6" stroke-width="2"/>
+<circle cx="635" cy="58" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<circle cx="680" cy="58" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<circle cx="724" cy="58" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<path d="M569 106.0 C 610 106.0, 569 82, 610 82 L 763 82 C 804 82, 763 106.0, 804 106.0" fill="none" stroke="#cfc6b6" stroke-width="2"/>
+<circle cx="649" cy="82" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<circle cx="690" cy="82" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<circle cx="717" cy="82" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<path d="M574 106.0 C 615 106.0, 574 130, 615 130 L 758 130 C 799 130, 758 106.0, 799 106.0" fill="none" stroke="#cfc6b6" stroke-width="2"/>
+<circle cx="643" cy="130" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<circle cx="681" cy="130" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<circle cx="719" cy="130" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<path d="M579 106.0 C 620 106.0, 579 154, 620 154 L 753 154 C 794 154, 753 106.0, 794 106.0" fill="none" stroke="#cfc6b6" stroke-width="2"/>
+<circle cx="655" cy="154" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<circle cx="690" cy="154" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<circle cx="712" cy="154" r="4.5" fill="#fffdf9" stroke="#6b6458" stroke-width="2"/>
+<circle cx="819" cy="106.0" r="4.5" fill="#1d1b17"/>
+<circle cx="844" cy="106.0" r="15" fill="#c2410c"/>
+<path d="M837 106.0 l5 5 l9 -10" fill="none" stroke="#fffdf9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

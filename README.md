@@ -1,3 +1,21 @@
+<p align="center">
+  <picture>
+    <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/banner-mobile-dark.svg">
+    <source media="(max-width: 700px)" srcset="assets/banner-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" alt="Ben Pellow. Founding engineer for AI products. Agents build, a person decides." width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/tagline-mobile-dark.svg">
+    <source media="(max-width: 700px)" srcset="assets/tagline-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/tagline-dark.svg">
+    <img src="assets/tagline-light.svg" alt="I build AI products with a team of coding agents. Several sessions at once, each in its own worktree. Every visual change gets a before/after I approve. YC founder. Ex-Amazon. Ex-Walmart Labs." width="100%">
+  </picture>
+</p>
+
 **Hi, I'm Ben.** I build AI products with a team of coding agents, and the tools that keep a person in charge of what they ship.
 
 ### Agentic work
