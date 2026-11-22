@@ -43,7 +43,7 @@
 /plugin install proofs@proofs
 ```
 
-- **How I work with agents**: several sessions run at once, each in its own git worktree. Every change gets a local CI gate before merge, and every visual change gets before/after screenshots I approve. Unattended runs open pull requests from a to-do list; a person merges them.
+**How I work with agents**: several sessions run at once, each in its own git worktree. Every change gets a local CI gate before merge, and every visual change gets before/after screenshots I approve. Unattended runs open pull requests from a to-do list; a person merges them.
 
 Most of this code lives in private repos. The activity graph counts it.
 
