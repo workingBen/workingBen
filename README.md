@@ -19,6 +19,8 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/benpellow/"><img src="https://img.shields.io/badge/LinkedIn-benpellow-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn benpellow"></a>
   <a href="https://github.com/workingBen/proofs"><img src="https://img.shields.io/badge/Proofs-Claude_Code_plugin-c2410c?style=flat&logo=claude&logoColor=white" alt="Proofs Claude Code plugin"></a>
+  <a href="https://github.com/workingBen/tap-to-fix"><img src="https://img.shields.io/badge/Tap_to_Fix-Claude_Code_plugin-c2410c?style=flat&logo=claude&logoColor=white" alt="Tap to Fix Claude Code plugin"></a>
+  <a href="https://github.com/workingBen/host-headroom"><img src="https://img.shields.io/badge/Host_Headroom-Claude_Code_plugin-c2410c?style=flat&logo=claude&logoColor=white" alt="Host Headroom Claude Code plugin"></a>
   <a href="https://lowemf.life"><img src="https://img.shields.io/badge/Low_EMF_Life-lowemf.life-1d1b17?style=flat" alt="Low EMF Life lowemf.life"></a>
   <a href="https://greensprings.life"><img src="https://img.shields.io/badge/Greensprings-greensprings.life-2f6b4f?style=flat" alt="Greensprings greensprings.life"></a>
 </p>
@@ -27,7 +29,15 @@
 
 ### Agentic work
 
-<a href="https://workingben.github.io/proofs/"><img src="assets/proofs-design-review.jpg" width="100%" alt="Proofs design-review: the live page beside two coded options, each with a Pick this button."></a>
+**[Proofs](#proofs)** · **[Tap to Fix](#tap-to-fix)** · **[Host Headroom](#host-headroom)**
+
+**How I work with agents**: several sessions run at once, each in its own git worktree. Every change gets a local CI gate before merge, and every visual change gets before/after screenshots I approve. Unattended runs open pull requests from a to-do list; a person merges them.
+
+#### [Proofs](https://github.com/workingBen/proofs)
+
+A Claude Code plugin of 12 skills that make coding agents show their work before anything ships: design reviews with real mockups, visual QA at three screen sizes, copy edits with a claims check, and decision pages you answer from your phone. [See it work](https://workingben.github.io/proofs/).
+
+<a href="https://workingben.github.io/proofs/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proofs-hero-dark.gif"><img src="assets/proofs-hero.gif" width="560" alt="Proofs design-review: the live page beside three coded options; you tap the one you want."></picture></a>
 
 <p>
   <img src="https://img.shields.io/badge/Claude_Code-plugin-c2410c" alt="Claude Code plugin">
@@ -36,14 +46,32 @@
   <img src="https://img.shields.io/badge/trigger_evals-108%2F108_clear_%C2%B7_42%2F42_ambiguous-2f6b3a" alt="Trigger evals: 108 of 108 on clear requests, 42 of 42 on ambiguous ones">
 </p>
 
-**[Proofs](https://github.com/workingBen/proofs)**: a Claude Code plugin of 12 skills that make coding agents show their work before anything ships: design reviews with real mockups, visual QA at three screen sizes, copy edits with a claims check, and decision pages you answer from your phone. [See it work](https://workingben.github.io/proofs/).
-
 ```
 /plugin marketplace add workingBen/proofs
 /plugin install proofs@proofs
 ```
 
-**How I work with agents**: several sessions run at once, each in its own git worktree. Every change gets a local CI gate before merge, and every visual change gets before/after screenshots I approve. Unattended runs open pull requests from a to-do list; a person merges them.
+#### [Tap to Fix](https://github.com/workingBen/tap-to-fix)
+
+Your reviewers tap the live site on their phone and say what to fix. Claude Code fixes each comment and tells them when it's done.
+
+<a href="https://workingben.github.io/tap-to-fix/"><img src="assets/tap-to-fix-hero.gif" width="560" alt="Tap to Fix: a reviewer taps a photo on a live page on their phone and asks for a slow video around the room; Claude fixes it and the pull request is merged."></a>
+
+```
+/plugin marketplace add workingBen/tap-to-fix
+/plugin install tap-to-fix@tap-to-fix
+```
+
+#### [Host Headroom](https://github.com/workingBen/host-headroom)
+
+One read-only command that tells you whether another AI coding agent fits on this machine, names exactly why, and prints the fix.
+
+<a href="https://workingben.github.io/host-headroom/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/host-headroom-hero-dark.gif"><img src="assets/host-headroom-hero.gif" width="560" alt="host-headroom in the terminal and its web dashboard: each printed fix is run and checked again, freeing room for one, two, then three more agents."></picture></a>
+
+```
+pipx install git+https://github.com/workingBen/host-headroom
+host-headroom
+```
 
 Most of this code lives in private repos. The activity graph counts it.
 
